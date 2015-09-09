@@ -1,0 +1,18 @@
+################################################################################
+    Excercise 1
+###############
+
+Example structure, create one which you can use throughout the excercises.
+
+root/
+├─ html/
+│  ├─ index.html
+├─ css/
+│  ├─ _containers.sass
+│  ├─ _grid.sass
+│  └─ _positioning.sass
+├─ scripts/
+│  └─ box.js
+├─ documentation/
+│  └─ blabla.txt
+└─ 
