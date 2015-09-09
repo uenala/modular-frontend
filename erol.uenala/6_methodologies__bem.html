@@ -1,0 +1,86 @@
+<!--############################################################################
+    Excercise 6
+    ###########
+    Create an example markup using the BEM style:
+    BLOCK:
+        using dashes for word separation
+        (site-logo, site-logo_xmas)
+    ELEMENT:
+        using double underscore
+        (person__header, person__body)
+    MODIFIER
+        using underscore as separator
+        (media__img_disabled, media__img_large)
+
+    EXAMPLE:
+    <form class="site-search narrow">
+        <input type="text" class="field">
+        <input type="submit" value="Search" class="button">
+    </form>
+
+    <form class="site-search site-search_narrow">
+        <input type="text" class="site-search__field">
+        <input type="submit" value="Search" disabled
+            class="site-search__button site-search__button_disabled">
+    </form>
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Modular Frontend</title>
+    </head>
+
+
+
+    <body>
+        <p>Hello World</p>
+
+    <ul class="list">
+        <li>
+            <article class="item">
+                <img src="dummy.jpg" class="item__image">
+                <h1 class="item__title">Item title1</h1>
+                <h2 class="item__category">Item Category1</h2>
+                <p class="item__price">$88</p>
+            </article>
+        </li>
+        <li>
+            <article class="item_big">
+                <img src="dummy.jpg" class="item__image">
+                <h1 class="item__title">Item title2</h1>
+                <h2 class="item__category">Item Category2</h2>
+                <p class="item__price">$89</p>
+            </article>
+        </li>
+        <li>
+            <article class="item">
+                <img src="dummy.jpg" class="item__image">
+                <h1 class="item__title">Item title3</h1>
+                <h2 class="item__category">Item Category3</h2>
+                <p class="item__price">$87</p>
+            </article>
+        </li>
+
+    </ul>
+
+
+    // case study cards
+
+        <article class="item item-backgroud1">
+            <h1 class="item__title">Packs</h1>
+            <h2 class="item__description">Combine all the bull...</h2>
+            <ul class="item__list item-separator-bottom">
+                <li>iPhone 4s
+                </li>
+                <li>Macbook deluxe
+                </li>
+            </ul>
+            <p class="item__price">$88</p>
+            <p class="item__description-small">For devices, gadgets...</p>
+            <button class="button">Get the deal</button>
+        </article>
+
+    </body>
+</html>
