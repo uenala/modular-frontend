@@ -1,0 +1,31 @@
+################################################################################
+    Excercise 5
+###############
+
+We are going to focus on molecules and organisms as there is only one
+template example available to us. List them in a manner that makes sense to
+you:
+
+##### list potential molecules
+
+suche
+mein konto
+warenkorb
+seiten-titel
+top navigation
+headlineimage
+intro content
+item
+quick links
+promo content
+teaserimage
+copyright
+support
+
+##### list potential organisms
+header
+headline
+main content
+itemlist
+bottom navigation
+footer
